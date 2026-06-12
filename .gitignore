@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+wheels/
+share/python-wheels/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyright_cache/
+.coverage
+.coverage.*
+.cache
+
+# uv & Virtual environments
+.venv/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sw?
+
+# Output files from zipx usage
+*.zpx
